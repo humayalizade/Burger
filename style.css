@@ -1,0 +1,253 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 50px 0;
+}
+
+header {
+  padding: 20px 0;
+}
+header .imgbox {
+  width: 40px;
+}
+header nav a {
+  font-size: 20px;
+  color: #8c8999;
+  margin-right: 30px;
+}
+header nav .home-color {
+  color: #74bebc;
+}
+
+#beautiful {
+  background-color: #f4fafb;
+}
+#beautiful .box h1 {
+  font-weight: 700;
+  font-size: 65px;
+  margin-right: 80px;
+}
+#beautiful .box span {
+  color: #37b7c3;
+}
+#beautiful .box h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#beautiful .box .btn {
+  padding: 13px 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #38b6c1;
+  color: white;
+}
+#beautiful .box .imgbox {
+  width: 120px;
+  margin: 20px 0 10px;
+}
+#beautiful .box h4 {
+  font-size: 20px;
+}
+
+#thehome {
+  background-color: #f1f8f9;
+}
+#thehome .textbox h1 {
+  color: #36b3bd;
+  font-size: 60px;
+  font-weight: 700;
+  width: 400px;
+}
+#thehome .textbox h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#thehome .textbox .btn {
+  padding: 13px 30px;
+  background-color: #38b6c1;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+#thehome .imgbox {
+  width: 520px;
+}
+
+#Howit h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #36b3bd;
+  margin-bottom: 60px;
+}
+#Howit .box .imgbox {
+  width: 350px;
+}
+#Howit .box .textbox {
+  padding: 35px 55px;
+}
+#Howit .box .textbox h2 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 9px;
+}
+#Howit .box .textbox h4 {
+  font-size: 20px;
+  color: #676f8b;
+  line-height: 1.3;
+}
+
+#Browse .textbox {
+  width: 500px;
+  text-align: center;
+}
+#Browse .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #3cc1d8;
+}
+#Browse .textbox h4 {
+  font-size: 20px;
+  color: rgba(36, 48, 68, 0.5215686275);
+  margin: 20px 0;
+  line-height: 1.2;
+}
+#Browse .textbox h4 span {
+  color: #3cc1d8;
+  text-decoration: underline;
+}
+#Browse .btn {
+  font-size: 16px;
+  border: 0.5px solid #bdbdbd;
+  padding: 15px 46px;
+  margin: 0 20px;
+  border-radius: 5px;
+}
+#Browse .bgc {
+  background-color: #3cc1d8;
+  color: white;
+}
+#Browse .box {
+  padding: 30px;
+}
+#Browse .box .imgbox {
+  width: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#Browse .box .textbox {
+  text-align: left;
+  width: auto;
+  margin-left: 20px;
+}
+#Browse .box .textbox .minibox h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+#Browse .box .textbox .minibox h5 {
+  color: #3cc1d8;
+  font-size: 18px;
+}
+#Browse .box .textbox p {
+  margin: 15px 0;
+  font-size: 18px;
+  line-height: 1.2;
+  color: rgba(35, 47, 66, 0.5215686275);
+}
+#Browse .box .textbox .add {
+  display: flex;
+}
+#Browse .box .textbox .add input {
+  border: 1px solid #e1e1e1;
+  background-color: #e9e9e9;
+  width: 50px;
+}
+#Browse .box .textbox .add .btn {
+  background-color: #3cc1d8;
+  color: white;
+  padding: 7px 20px;
+}
+#Browse .big {
+  padding: 17px 53px;
+  margin-top: 50px;
+}
+
+#checkout .imgbox {
+  width: 600px;
+}
+#checkout .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #36b3bd;
+}
+#checkout .textbox h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#checkout .textbox .btn {
+  color: white;
+  font-size: 20px;
+  background-color: #38b6c1;
+  padding: 13px 34px;
+  border-radius: 5px;
+}
+
+#call {
+  background-color: #f1f8f9;
+}
+#call .textbox h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #36b3bd;
+}
+#call .textbox h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#call .textbox .btn {
+  font-size: 20px;
+  color: white;
+  background-color: #38b6c1;
+  padding: 13px 34px;
+}
+#call .imgbox {
+  width: 520px;
+}
+
+#business .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  margin: 0 70px 0 40px;
+  line-height: 1.1;
+}
+#business .textbox span {
+  color: rgba(36, 102, 114, 0.5137254902);
+}
+#business .textbox .btn {
+  font-size: 22px;
+  color: #38b6c1;
+  background-color: white;
+  padding: 10px 30px;
+  margin: 30px 0 0 40px;
+}
+#business .bgc {
+  background-color: #35b6c1;
+}/*# sourceMappingURL=style.css.map */
