@@ -28,6 +28,21 @@ header nav a {
 header nav .home-color {
   color: #74bebc;
 }
+header .btn {
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  header .btn {
+    display: block;
+    border-radius: 2px;
+    background-color: #cfcdcd;
+    width: 40px;
+    height: 40px;
+  }
+  header nav {
+    display: none;
+  }
+}
 
 #beautiful {
   background-color: #f4fafb;
