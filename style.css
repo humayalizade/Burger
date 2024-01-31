@@ -75,6 +75,54 @@ header .btn {
 #beautiful .box h4 {
   font-size: 20px;
 }
+@media screen and (max-width: 991px) {
+  #beautiful .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #beautiful .box h1 {
+    font-size: 60px;
+    margin-right: 80px;
+  }
+  #beautiful .box h5 {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  #beautiful .box .btn, #beautiful .box .imgbox, #beautiful .box h4 {
+    margin-right: 50px;
+  }
+  #beautiful .md-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  #beautiful .md-12 .str {
+    width: 446px;
+  }
+}
+@media screen and (max-width: 401px) {
+  #beautiful .box {
+    text-align: center;
+    margin-left: 40px;
+  }
+  #beautiful .box h1 {
+    font-size: 45px;
+  }
+  #beautiful .box h5 {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+  #beautiful .box .btn, #beautiful .box .imgbox, #beautiful .box h4 {
+    margin-right: 90px;
+  }
+  #beautiful .box h4 {
+    font-size: 16px;
+  }
+}
 
 #thehome {
   background-color: #f1f8f9;
