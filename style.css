@@ -189,27 +189,49 @@ header .btn {
   }
 }
 
-#Howit h1 {
+#howit h1 {
   font-weight: 700;
   font-size: 60px;
   color: #36b3bd;
   margin-bottom: 60px;
 }
-#Howit .box .imgbox {
+#howit .box .imgbox {
   width: 350px;
 }
-#Howit .box .textbox {
+#howit .box .textbox {
   padding: 35px 55px;
 }
-#Howit .box .textbox h2 {
+#howit .box .textbox h2 {
   font-weight: 700;
   font-size: 25px;
   margin-bottom: 9px;
 }
-#Howit .box .textbox h4 {
+#howit .box .textbox h4 {
   font-size: 20px;
   color: #676f8b;
   line-height: 1.3;
+}
+@media screen and (max-width: 991px) {
+  #howit h1 {
+    font-size: 45px;
+  }
+  #howit .box .textbox h2 {
+    font-size: 20px;
+  }
+  #howit .box .textbox h4 {
+    width: 400px;
+  }
+  #howit .col-lg-4 {
+    padding: 30px 0;
+  }
+}
+@media screen and (max-width: 401px) {
+  #howit h1 {
+    font-size: 50px;
+  }
+  #howit .box .textbox h4 {
+    width: 271px;
+  }
 }
 
 #Browse .textbox {
