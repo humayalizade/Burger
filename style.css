@@ -234,6 +234,9 @@ header .btn {
   }
 }
 
+#Browse {
+  background: #f2f6fa;
+}
 #Browse .textbox {
   width: 500px;
   text-align: center;
@@ -265,7 +268,10 @@ header .btn {
   color: white;
 }
 #Browse .box {
+  background: white;
+  margin-bottom: 20px;
   padding: 30px;
+  border-radius: 5px;
 }
 #Browse .box .imgbox {
   width: 150px;
@@ -307,6 +313,32 @@ header .btn {
 #Browse .big {
   padding: 17px 53px;
   margin-top: 50px;
+}
+@media screen and (max-width: 401px) {
+  #Browse .textbox h4 {
+    width: 328px;
+  }
+  #Browse .cbg {
+    display: flex;
+    flex-direction: column;
+  }
+  #Browse .cbg .btn {
+    margin-bottom: 10px;
+  }
+  #Browse .box, #Browse .minibox {
+    display: flex;
+    flex-direction: column;
+  }
+  #Browse .box .imgbox, #Browse .minibox .imgbox {
+    width: 310px;
+  }
+  #Browse .box .textbox, #Browse .minibox .textbox {
+    width: 310px;
+    margin-left: 0;
+  }
+  #Browse .box .minibox h2, #Browse .minibox .minibox h2 {
+    margin: 10px 0;
+  }
 }
 
 #checkout .imgbox {
