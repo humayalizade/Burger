@@ -149,6 +149,45 @@ header .btn {
 #thehome .imgbox {
   width: 520px;
 }
+@media screen and (max-width: 991px) {
+  #thehome .textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #thehome .textbox h1 {
+    font-size: 50px;
+    width: 336px;
+  }
+  #thehome .textbox h5 {
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 20px 95px;
+  }
+  #thehome .textbox .btn {
+    padding: 10px 30px;
+  }
+  #thehome .lg-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  #thehome .lg-12 .imgbox {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 401px) {
+  #thehome .textbox h5 {
+    font-size: 15px;
+    margin: 10px 60px;
+  }
+  #thehome .lg-12 .imgbox {
+    width: 300px;
+  }
+}
 
 #Howit h1 {
   font-weight: 700;
