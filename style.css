@@ -352,7 +352,6 @@ header .btn {
 #checkout .textbox h5 {
   color: #676f8b;
   font-size: 20px;
-  margin: 25px 75px 50px 0;
   line-height: 1.3;
 }
 #checkout .textbox .btn {
@@ -361,6 +360,12 @@ header .btn {
   background-color: #38b6c1;
   padding: 13px 34px;
   border-radius: 5px;
+}
+@media screen and (max-width: 991px) {
+  #checkout .textbox {
+    text-align: center;
+    width: 400px;
+  }
 }
 
 #call {
