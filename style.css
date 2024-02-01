@@ -352,7 +352,8 @@ header .btn {
 #checkout .textbox h5 {
   color: #676f8b;
   font-size: 20px;
-  line-height: 1.3;
+  line-height: 1.2;
+  margin: 20px 0;
 }
 #checkout .textbox .btn {
   color: white;
@@ -362,9 +363,26 @@ header .btn {
   border-radius: 5px;
 }
 @media screen and (max-width: 991px) {
+  #checkout .col-lg-6 {
+    padding: 50px 0;
+  }
   #checkout .textbox {
     text-align: center;
     width: 400px;
+  }
+}
+@media screen and (max-width: 401px) {
+  #checkout .imgbox {
+    width: 365px;
+  }
+  #checkout .textbox {
+    width: 321px;
+  }
+  #checkout .textbox h1 {
+    font-size: 50px;
+  }
+  #checkout .textbox .btn {
+    padding: 10px 50px;
   }
 }
 
