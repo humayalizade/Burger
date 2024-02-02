@@ -108,17 +108,14 @@ header .btn {
 @media screen and (max-width: 401px) {
   #beautiful .box {
     text-align: center;
-    margin-left: 40px;
   }
   #beautiful .box h1 {
     font-size: 45px;
+    margin: 0 43px;
   }
   #beautiful .box h5 {
     font-size: 15px;
     line-height: 1.2;
-  }
-  #beautiful .box .btn, #beautiful .box .imgbox, #beautiful .box h4 {
-    margin-right: 90px;
   }
   #beautiful .box h4 {
     font-size: 16px;
