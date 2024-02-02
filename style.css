@@ -49,8 +49,7 @@ header .btn {
 }
 #beautiful .box h1 {
   font-weight: 700;
-  font-size: 65px;
-  margin-right: 80px;
+  font-size: 60px;
 }
 #beautiful .box span {
   color: #37b7c3;
@@ -58,19 +57,20 @@ header .btn {
 #beautiful .box h5 {
   color: #676f8b;
   font-size: 20px;
-  margin: 25px 75px 50px 0;
-  line-height: 1.3;
+  margin: 20px 0;
+  line-height: 1.2;
 }
 #beautiful .box .btn {
   padding: 13px 30px;
+  margin-top: 25px;
   font-size: 20px;
   border-radius: 5px;
   background-color: #38b6c1;
   color: white;
 }
 #beautiful .box .imgbox {
-  width: 120px;
-  margin: 20px 0 10px;
+  width: 100px;
+  margin: 20px 0 10px 0;
 }
 #beautiful .box h4 {
   font-size: 20px;
@@ -84,15 +84,16 @@ header .btn {
     text-align: center;
   }
   #beautiful .box h1 {
-    font-size: 60px;
-    margin-right: 80px;
+    font-size: 63px;
+    margin: 0 80px;
   }
   #beautiful .box h5 {
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.2;
+    margin: 20px 60px;
   }
-  #beautiful .box .btn, #beautiful .box .imgbox, #beautiful .box h4 {
-    margin-right: 50px;
+  #beautiful .box h4 {
+    font-size: 18px;
   }
   #beautiful .md-12 {
     display: flex;
